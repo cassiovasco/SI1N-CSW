@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Pagina Principal.html">Página Inicial</a></li>
+                <li><a href="Curriculo.html">Currículo</a></li>
+                <li><a href="Github.html">GitHub</a></li>
+                <li><a href="Servicos.html">Serviços</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <section id="contato">
+        <h1>Contato</h1>
+        <form id="contactForm">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label>Tipo:</label>
+            <select name="tipo" required>
+                <option value="fisica">Pessoa Física</option>
+                <option value="juridica">Pessoa Jurídica</option>
+            </select>
+            
+            <label>Melhor horário para contato:</label>
+            <input type="time" name="horario">
+            
+            <label>Tipo de serviço desejado:</label>
+            <input class="boxval" type="checkbox" name="servico" value="pagina_estatica"> Página Estática
+            <input class="boxval" type="checkbox" name="servico" value="pagina_dinamica"> Página Dinâmica
+    
+            <label class="descricao">Descrição:</label>
+            <textarea name="descricao" rows="4"></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>© 2024 Cassio Luiz. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
