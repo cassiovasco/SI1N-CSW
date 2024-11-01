@@ -1,0 +1,50 @@
+.bloco1 {
+    border: 1px solid black;
+
+}
+
+
+.cor:hover{
+    color: pink;
+}
+
+.bloco2{
+    border: 1px solid black;
+}
+
+a:hover{
+color: pink;
+}
+
+.maiuscula {
+    font-size: 30px;
+}
+
+p:first-letter{
+    font-size: 30px;
+}
+
+.bloco3{
+    border: 1px solid black;
+}
+
+.bloco4 {
+border: 1px solid black;
+width: 300px;
+height: 300px;
+display: flex;
+display: inline-block;
+
+}
+
+h4{
+    margin-left: 75px;
+}
+
+.sumiu:hover{
+color: black;
+}
+
+.sumiu {
+    color: white;
+}
