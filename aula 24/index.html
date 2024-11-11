@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    .Lado {
+display: flex;
+    }
+
+
+    #entradausuario2{
+        margin-right: 20px;
+    }
+
+
+.nome{
+    margin-right: 20px;
+}
+
+
+.Hovr{
+    border: 1px solid black;
+    height: 200px;
+width: 500px;
+}
+
+
+</style>
+
+<body>
+    <div>
+        <div class="Lado">
+            <p class="nome">Nome</p>
+            <input id="entradausuario" size="50">
+        </div>
+        <br>
+        
+        <br>
+        <br>
+        <div>
+           <div class="Lado">
+            <p class="nome">Sobre Nome</p>
+            <input id="entradausuario2" size="50"> <button onclick="Enviaresposta()">Enviar</button>
+           </div>
+            <br>
+            <script type="text/javascript">
+                function Enviaresposta() {
+                    var Nome = document.getElementById('entradausuario').value;  
+                    var Sobrenome = document.getElementById('entradausuario2').value;
+                    window.alert('Foi digitado  ' + Nome + Sobrenome);    
+                }
+            </script>
+        </div>
+        <br>
+        <br>
+        <div class="Hovr">
+<button onmouseover="Enviaresposta()"></button>
+        </div>
+    </div>
+</body>
+</html>
